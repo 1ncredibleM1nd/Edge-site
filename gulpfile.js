@@ -59,7 +59,7 @@ function watchTask() {
 
 function scriptsTask() {
     return src([
-        'src/js/jquery-3.4.1.js',
+        
         'src/js/script.js'
     ])
         .pipe(concat('script.min.js'))
